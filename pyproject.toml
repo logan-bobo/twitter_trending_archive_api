@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "twitter-trending-archive-api"
+version = "0.1.0"
+description = "Twitter Trending Archive API"
+authors = ["Logan Cox <mail@logan-cox.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "twitter_trending_archive_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
